@@ -10,6 +10,36 @@
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
 
+<form action="http://example.com/process-user.php" method="POST">
+  <div>
+    <label for="fullname">Fullname:</label>
+    <input type="text" name="name" id="fullname" placeholder="Enter Name" required>
+  </div>
+  
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter Email" required>
+  </div>
+  
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone" id="phone" placeholder="Enter Telephone (optional)">
+  </div>
+  
+  <div>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+  </div>
+  
+  <div>
+    <input type="checkbox" name="TC" value="TC"> I agree to the Terms & Conditions.<br>
+  </div>
+  
+  <div>
+    <input type="submit" value="submit">
+  </div>
+</form>
+
     <!-- First, create a form tag where our inputs will be nested -->
 
 
